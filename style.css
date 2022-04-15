@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*hero adalah pangilan dalam yang ada pada HTML dalam tampilan awal untuk mewarnai gambar belakan*/
+.hero {
+    background: #ff676d;
+    height: 300vh;
+    width: 200%;
+    position: relative;
+
+}
+
+/*ini adalah untuk mengarakan text ke bagian tengah*/
+
+.hero h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: #fff;
+
+
+}
+
+/*ini adalah slide-row padah html untuk merapikan gambar*/
+/*bakan menaruh gembar ke ara tengga sejajar terbagi*/
+.slide-row {
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+
+}
+
+/*mengatur tinggi dan lebar bakan posisi*/
+.slide-col {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+/*mengatur gambar*/
+.image-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+}
+
+/*mangatur gambar jdi kecil dan besar*/
+.image-img img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*user-text adalah mewarnai becgroun text dan menaru posisi belakan*/
+.image-text {
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+
+
+}
+
+/*membuaf font zise atau gambar menjadi kotak atau bulat padagambar */
+.image-text p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.image-text h3 {
+    margin: 35px 0 5px;
+    color: #fff;
+}
+
+/*membuat elemen pada gambar container ber transisi */
+.container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*menurunkan gambar ke bagian bawa*/
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -50px;
+
+}
+
+
+/*membuat kursor titi" pada foto bergerak bergerak */
+
+.btn {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+
+.active {
+    width: 45px;
+
+}
+
+/*atur gerak foto*/
+
+.testimonial {
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}

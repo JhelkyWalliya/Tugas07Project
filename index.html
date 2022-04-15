@@ -1,0 +1,173 @@
+<!--ini adalah Html-->
+<html>
+
+<head>
+
+    <title>testimonails Design</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <head>
+    </head>
+
+    <!--INI ADLAH ISI BODY-->
+
+<body>
+
+    <div class="hero">
+        <h1>Testimonails</h1>
+
+        <div class="container">
+            <div class="indicator">
+                <span class="btn active"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+
+            </div>
+
+            <div class="testimonial">
+                <div class="slide-row" id="slide">
+                    <div class="slide-col">....</div>
+                    <div class="slide-col">....</div>
+                    <div class="slide-col">....</div>
+                    <div class="slide-col">....</div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="slide-row">
+            <div class="slide-col">
+                <div class="image-text">
+                    <p>this is my story.. life is just simple, need to say thank you and keep fighting even though
+                        reality doesn't live up to expectations💡.</p>
+                    <h3>Jhelky W</h3>
+                    <p>i'm Ula Mountain.</p>
+
+
+                </div>
+                <div class="image-img">
+                    <img src="image/img1.jpg">
+
+                </div>
+
+            </div>
+            <div class="slide-col">
+                <div class="image-text">
+                    <p>this is my story.. life is just simple, need to say thank you and keep fighting even though
+                        reality doesn't live up to expectations💡.</p>
+                    <h3>Jhelky W</h3>
+                    <p>i'm Ula Mountain .</p>
+
+
+                </div>
+                <div class="img-img">
+                    <img src="image/img2.jpg">
+
+                </div>
+
+            </div>
+            <div class="slide-col">
+                <div class="image-text">
+                    <p>this is my story.. life is just simple, need to say thank you and keep fighting even though
+                        reality doesn't live up to expectations💡.</p>
+                    <h3>Jhelky W</h3>
+                    <p>i'm Ula Mountain.</p>
+
+
+                </div>
+
+                <div class="image-img">
+                    <img src="image/img3.jpg">
+
+                </div>
+            </div>
+            <div class="slide-col">
+                <div class="image-text">
+                    <p>this is my story.. life is just simple, need to say thank you and keep fighting even though
+                        reality doesn't live up to expectations💡.</p>
+                    <h3>Jhelky W</h3>
+                    <p>i'm Ula Mountain .</p>
+
+
+                </div>
+                <div class="image-img">
+                    <img src="image/img 4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--ini adalah jafa script-->
+
+    <!--Script ini adalah untuk membut text bergerak atau gambar berjlan-->
+
+
+    <script>
+        var btn = document.getElementsByClassName("btn");
+        var slide = document.getElementById("slide");
+
+        btn[0].onclick = function () {
+            slide.style.transform = "translateX(-0px)";
+            for (i = 0; i < 4; i++) {
+                btn[i].classList.remove("active");
+
+            }
+            this.classList.add("active");
+
+        }
+
+        btn[1].onclick = function () {
+            slide.style.transform = "translateX(-800px)";
+            for (i = 0; i < 4; i++) {
+                btn[i].classList.remove("active");
+
+            }
+            this.classList.add("active");
+
+
+
+        }
+
+        btn[2].onclick = function () {
+            slide.style.transform = "translateX(-1600px)";
+            for (i = 0; i < 4; i++) {
+                btn[i].classList.remove("active");
+
+            }
+            this.classList.add("active");
+
+
+
+
+        }
+        btn[3].onclick = function () {
+            slide.style.transform = "translateX(-2400px)";
+            for (i = 0; i < 4; i++) {
+                btn[i].classList.remove("active");
+
+            }
+            this.classList.add("active");
+
+
+
+        }
+
+    </script>
+
+    <!--Script ini adalah untuk membut text bergerak atau gambar berjlan-->
+
+    <!--ini adalah jafa script-->
+
+
+</body>
+<!--INI ADLAH ISI BODY-->
+
+</html>
+<!--ini adalah /. Html-->
